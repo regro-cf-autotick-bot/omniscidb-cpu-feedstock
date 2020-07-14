@@ -4,6 +4,8 @@ channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
+gflags:
+- '2.2'
 glog:
 - 0.4.0
 libarchive:
@@ -19,7 +21,7 @@ macos_machine:
 macos_min_version:
 - '10.9'
 ncurses:
-- '6.1'
+- '6.2'
 openssl:
 - 1.1.1
 pin_run_as_build:
